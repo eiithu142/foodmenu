@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOOD MENU</title>
 </head>
-<h1>FOOD MENU<MENU></MENU></h1><hr>
+<h1>FOOD MENU<MENU></MENU></h1>
+    <div class="select">
+    <button type="button">Juice</button>
+    <button type="button">Rice</button>
+    <button type="button">Fried</button>
+    <button type="button">barbecue</button>
+</div><hr>
 <body>
     <div class="foodcontainer">
         <div class="fooditem">
@@ -173,6 +179,11 @@
          
         margin-top: 30px;
     }
-    
+     .select{
+        display: grid;
+        grid-template-columns: repeat(4,80px);
+        justify-content: center;
+        align-items: center;
+    }
  </style>
 </html>
