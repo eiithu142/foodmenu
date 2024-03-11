@@ -5,43 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOOD MENU</title>
 </head>
-<h1>FOOD MENU<MENU></MENU></h1>
-    <div class="select">
-    <button type="button">Juice</button>
-    <button type="button">Rice</button>
-    <button type="button">Fried</button>
-    <button type="button">barbecue</button>
-</div><hr>
+<h1>FOOD MEMU</h1>
+
+<div class="select">
+    <a href="juice.html"  style="color: black;"><button type="button">Juice</a></button>
+    <a href="juice.html"  style="color: black;"><button type="button">Rice</a></button>
+    <a href="juice.html"  style="color: black;"><button type="button">Fried</a></button>
+    
+   
+</div>
+<hr>
+
 <body>
     <div class="foodcontainer">
         <div class="fooditem">
-            <img src="pexels-dana-tentis-262959.jpg"width="90px">
+            <img src="pexels-dana-tentis-262959.jpg"width="80px">
             <div class="detrails">
                 <h3>food name</h3>
                 <div class="price">
-                    <h2>$200</h2>
+                    <h2>$3200</h2>
                     
                 </div>
             </div>
 
         </div>
         <div class="fooditem1">
-            <img src="pexels-ella-olsson-1640777.jpg"width="90px">
+            <img src="pexels-ella-olsson-1640777.jpg"width="80px">
             <div class="detrails">
                 <h3>food name</h3>
                 <div class="price">
-                    <h2>$200</h2>
+                    <h2>$2200</h2>
                     
                 </div>
             </div>
 
         </div>
         <div class="fooditem2">
-            <img src="pexels-jang-‘s-🍂-699953.jpg"width="90px">
+            <img src="pexels-jang-‘s-🍂-699953.jpg"width="80px">
             <div class="detrails">
                 <h3>food name</h3>
                 <div class="price">
-                    <h2>$200</h2>
+                    <h2>$3000</h2>
                     
                 </div>
             </div>
@@ -51,14 +55,15 @@
         
                   
         </div>
+        <hr>
         <br>
         <div class="foodcontainer2">
         <div class="fooditem2">
-            <img src="pexels-jang-‘s-🍂-699953.jpg"width="130px" >
+            <a href="pexels-jang-‘s-🍂-699953.jpg"><img src="pexels-jang-‘s-🍂-699953.jpg"width="250px" height="auto"></a>
             <div class="detrails">
                 <h3>food name</h3>
                 <div class="price">
-                    <h2>$200</h2>
+                    <h2>$2000</h2>
                     
                 </div>
             </div>
@@ -71,31 +76,32 @@
                 <div class="detrails">
                     <h3>food name</h3>
                     <div class="price">
-                        <h2>$200</h2>
+                        <h2>$4500</h2>
                         
                     </div>
                 </div>
                 </div>
 </body>
  <style>
-   
-    h1{
+ 
+ h1{
+     background-color: orange;
          font-size: 20px;
         display: grid;
         justify-content: center;
         align-items: center;
     }
     .foodcontainer{
-        
+        background-color: orange;
     border-radius: 5px;  
     display: grid;
-    grid-template-columns: repeat(3,85px);
+    grid-template-columns: repeat(3,100px);
     gap: 30px;
     justify-content: center;
     }
-    @media(min-witdh:1000px){
+    @media(max-witdh:1000px){
         .foodcontainer{
-            grid-template-columns: repeat(3,250px);
+            grid-template-columns: repeat(5,250px);
             background-color: orange;
         }
     }
@@ -110,11 +116,8 @@
 
     }
     .foodcontainer3{
-        width: 260px;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-        display: grid;
+        width: 270px;
+        
     }
     .fooditem{
         
@@ -160,7 +163,8 @@
         display: grid;
     }
     .detrails{
-         font-size: 10px;
+        width: 70px;
+        font-size: 10px;
         display: grid;
         align-items: center;
         justify-content: center;
@@ -175,13 +179,16 @@
         
     }
     h3{
-        width: 20px;
-         
-        margin-top: 30px;
+        font-size: 20px;
+        width: 50px;
+        
+      
     }
-     .select{
+    .select{
+        margin-top: -10px;
+       background-color: aquamarine;
         display: grid;
-        grid-template-columns: repeat(4,80px);
+       grid-template-columns: repeat(3,100px);
         justify-content: center;
         align-items: center;
     }
