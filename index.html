@@ -8,9 +8,10 @@
 <h1>FOOD MEMU</h1>
 
 <div class="select">
-    <a href="juice.html"  style="color: black;"><button type="button">Juice</a></button>
-    <a href="juice.html"  style="color: black;"><button type="button">Rice</a></button>
-    <a href="juice.html"  style="color: black;"><button type="button">Fried</a></button>
+    <a href="juice.html"  style="color:green"><button type="button">Juice</a></button>
+    <a href="juice.html"  style="color: blue"><button type="button">Rice</a></button>
+    <a href="juice.html"  style="color: olivedrab"><button type="button">Fried</a></button>
+    <a href="juice.html"  style="color: black"><button type="button">Fried</a></button>
     
    
 </div>
@@ -21,7 +22,7 @@
         <div class="fooditem">
             <img src="pexels-dana-tentis-262959.jpg"width="80px">
             <div class="detrails">
-                <h3>food name</h3>
+                <h3>Fish Curry</h3>
                 <div class="price">
                     <h2>$3200</h2>
                     
@@ -30,9 +31,9 @@
 
         </div>
         <div class="fooditem1">
-            <img src="pexels-ella-olsson-1640777.jpg"width="80px">
+            <a href="pexels-ella-olsson-1640777.jpg"><img src="pexels-ella-olsson-1640777.jpg"width="80px"></a>
             <div class="detrails">
-                <h3>food name</h3>
+                <h3>Dry Fruit</h3>
                 <div class="price">
                     <h2>$2200</h2>
                     
@@ -41,7 +42,7 @@
 
         </div>
         <div class="fooditem2">
-            <img src="pexels-jang-‘s-🍂-699953.jpg"width="80px">
+            <a href="pexels-jang-‘s-🍂-699953.jpg"><img src="pexels-jang-‘s-🍂-699953.jpg"width="80px"></a>
             <div class="detrails">
                 <h3>food name</h3>
                 <div class="price">
@@ -70,9 +71,34 @@
            
     
             </div>
+            </div>
             <br>
             <div class="fooditem3">
-                <img src="pexels-valeria-boltneva-1199957.jpg"width="150px">
+                <img src="pexels-valeria-boltneva-1199957.jpg"width="90px">
+                <div class="detrails">
+                    <h3>food name <style colors="white"></style></h3>
+                    <div class="price">
+                        <h2>$4500</h2>
+                        
+                    </div>
+                </div>
+                <a href="pexels-valeria-boltneva-1199957.jpg"><img src="pexels-valeria-boltneva-1199957.jpg"width="90px"></a>
+                <div class="detrails">
+                    <h3>Hamburger</h3>
+                    <div class="price">
+                        <h2>$4500</h2>
+                        
+                    </div>
+                </div>
+                <a href="pexels-valeria-boltneva-1199957.jpg"><img src="pexels-valeria-boltneva-1199957.jpg"width="90px"></a>
+                <div class="detrails">
+                    <h3>food name</h3>
+                    <div class="price">
+                        <h2>$4500</h2>
+                        
+                    </div>
+                </div>
+                <a href="pexels-valeria-boltneva-1199957.jpg"><img src="pexels-valeria-boltneva-1199957.jpg"width="90px"></a>
                 <div class="detrails">
                     <h3>food name</h3>
                     <div class="price">
@@ -85,6 +111,7 @@
  <style>
  
  h1{
+    height: 80px;
      background-color: orange;
          font-size: 20px;
         display: grid;
@@ -92,6 +119,7 @@
         align-items: center;
     }
     .foodcontainer{
+      
         background-color: orange;
     border-radius: 5px;  
     display: grid;
@@ -112,11 +140,23 @@
         }
     }
     .foodcontainer2{
-        width: 260px;
+     
+        background-color: orange;
+        width: 260px; border-radius: 5px;  
+        display: grid;
+      align-items: center;
+       justify-content: center;
+        
 
     }
     .foodcontainer3{
-        width: 270px;
+        overflow: hidden;
+        background-color: orange;
+    border-radius: 5px;  
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    gap: 30px;
+    justify-content: center;
         
     }
     .fooditem{
@@ -135,20 +175,26 @@
         display: grid;
     }
     .fooditem2{
+         
         border-radius: 5px;
         border: 1px solid black;
+        display: grid;
         justify-content: center;
         align-items: center;
-        display: grid;
+        
     }
     .fooditem3{
-        border-radius: 5px;
-        border: 1px solid black;
-        justify-content: center;
-        align-items: center;
-        display: grid;
+       
+        background-color: orange;
+        border: 2px;
+    border-radius: 5px;  
+    display: grid;
+    grid-template-columns: repeat(4,80px);
+    gap: 30px;
+    justify-content: center;
     }
     .fooditem4{
+
         border-radius: 5px;
         border: 1px solid black;
         justify-content: center;
@@ -186,8 +232,8 @@
     }
     .select{
         margin-top: -10px;
-       background-color: aquamarine;
-        display: grid;
+       
+        
        grid-template-columns: repeat(3,100px);
         justify-content: center;
         align-items: center;
